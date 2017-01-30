@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+Regex
+</title>
+    <script type="text/javascript">
+      // Include version 1 of the base GUI library.
+      document.write(
+        '<link rel="import" href="' + window.Alteryx.LibDir + '1/lib/alteryx/gui/includes.html">'
+      );
+    </script>
+</head>
+ <form>
+
+ <!-- Landing Page -->
+<fieldset id="Landing">
+<legend>RegEx</legend>
+<label for="SelectField">Select a field:</label>
+			<alteryx-pluginwidget type="DropDown" dataType="FieldSelector" id="SelectField" dataName="SelectField" inputNumber="0" connectionNumber="0" fieldType="String" includeNone="True"></alteryx-pluginwidget>
+
+<label for="RegEx">Regular Expression</label>
+			<alteryx-pluginwidget type="TextBox" id="RegEx" DataName="RegEx"></alteryx-pluginwidget>
+            <alteryx-pluginwidget type="CheckBox" id="CaseInsensitive" dataName="CaseInsensitive" text="Case Insensitive" defaultvalue="true"></alteryx-pluginwidget>
+
+<label for="Method">Select Output Method</label>
+			<alteryx-pluginwidget type="DropDown" id="Operation" dataName="Operation">
+			<alteryx-option uiobject="Parse" default="true">ParseComplex</alteryx-option>
+			<alteryx-option uiobject="Tokenize">ParseSimple</alteryx-option>
+			<alteryx-option uiobject="Replace">Replace</alteryx-option>
+			<alteryx-option uiobject="Match1">Match</alteryx-option>
+			</alteryx-pluginwidget>
+</fieldset>
+
+ <!-- Parse -->
+<fieldset id="Parse">
+<label>Parse</label>
+</fieldset>
+
+ <!-- Tokenize -->
+
+</br>
+
+</form>
+    <script src="bundle.js"></script>
+</body>
+</html>

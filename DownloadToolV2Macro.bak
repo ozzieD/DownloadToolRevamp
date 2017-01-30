@@ -1,0 +1,1604 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1314" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output29</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="186" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="114" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="1422" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField />
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues />
+            <Fields orderChanged="False">
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="258" y="174" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="450" y="102" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="594" y="102" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="426" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="570" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="762" y="102" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="750" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="894" y="102" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="894" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="198" y="510" width="120" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx inputs</Caption>
+          <Style TextColor="#314c4a" FillColor="#0080c0" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="470" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields />
+              <DataFields>
+                <Field field="typ" selected="True" />
+                <Field field="Header" selected="True" />
+                <Field field="URL" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="7" source="Transpose:" type="String" />
+                <Field name="Value" size="66" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="698" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_90504_21fac33a14b549ddb4aa748c4d491c38_\Engine_14984_4f7ff9b1b39b488290516ff06e3dce8c_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="386" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="typ" selected="True" />
+                <SelectField field="Header" selected="True" />
+                <SelectField field="URL" selected="True" />
+                <SelectField field="Payload" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Payload" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="554" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="config" type="V_WString" size="999999" expression="If [Name]='typ' then '-X ' + [Value]&#xA;elseif [Name]='Header' then '-H ' + [Value]&#xA;elseif [Name]='url' then 'url=' + [Value]&#xA;elseif [Name]='Payload' then '-d ' + [Value]&#xA;else [Value]&#xA;endif" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>config=If [Name]='typ' then '-X ' + [Value]
+elseif [Name]='He...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="7" source="Transpose:" type="String" />
+                <Field name="Value" size="66" source="TextInput:" type="String" />
+                <Field name="config" size="999999" source="Formula: If [Name]='typ' then '-X ' + [Value]&#xA;elseif [Name]='Header' then '-H ' + [Value]&#xA;elseif [Name]='url' then 'url=' + [Value]&#xA;elseif [Name]='Payload' then '-d ' + [Value]&#xA;else [Value]&#xA;endif" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="298" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="False" />
+              <Name>Input21</Name>
+              <Abbrev>I</Abbrev>
+              <ShowFieldMap value="True" />
+              <Optional value="True" />
+              <TextInput>
+                <Configuration>
+                  <NumRows value="1" />
+                  <Fields>
+                    <Field name="URL" />
+                    <Field name="Header" />
+                    <Field name="typ" />
+                    <Field name="Payload" />
+                  </Fields>
+                  <Data>
+                    <r>
+                      <c>"https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG"</c>
+                      <c>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</c>
+                      <c>GET</c>
+                      <c>DATAHERE</c>
+                    </r>
+                  </Data>
+                </Configuration>
+              </TextInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Text Input (20)</Name>
+              <DefaultAnnotationText />
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Payload" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="138" y="630" width="156.8175" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>User inputs credentials</Caption>
+          <Style TextColor="#314c4a" FillColor="#ff8040" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="198" y="709" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="URL" />
+                <Field name="Header" />
+                <Field name="typ" />
+                <Field name="Payload" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>"https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG"</c>
+                  <c>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</c>
+                  <c>GET</c>
+                  <c>DATAHERE</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Payload" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="402" y="709" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields />
+              <DataFields>
+                <Field field="typ" selected="True" />
+                <Field field="Header" selected="True" />
+                <Field field="URL" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="7" source="Transpose:" type="String" />
+                <Field name="Value" size="66" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="642" y="709" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_90504_21fac33a14b549ddb4aa748c4d491c38_\Engine_14984_4f7ff9b1b39b488290516ff06e3dce8c_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="318" y="709" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="typ" selected="True" />
+                <SelectField field="Header" selected="True" />
+                <SelectField field="URL" selected="True" />
+                <SelectField field="Payload" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Payload" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="486" y="709" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="config" type="V_WString" size="999999" expression="If [Name]='typ' then '-X ' + [Value]&#xA;elseif [Name]='Header' then '-H ' + [Value]&#xA;elseif [Name]='url' then 'url=' + [Value]&#xA;elseif [Name]='Payload' then '-d ' + [Value]&#xA;else [Value]&#xA;endif" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>config=If [Name]='typ' then '-X ' + [Value]
+elseif [Name]='He...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="7" source="Transpose:" type="String" />
+                <Field name="Value" size="66" source="TextInput:" type="String" />
+                <Field name="config" size="999999" source="Formula: If [Name]='typ' then '-X ' + [Value]&#xA;elseif [Name]='Header' then '-H ' + [Value]&#xA;elseif [Name]='url' then 'url=' + [Value]&#xA;elseif [Name]='Payload' then '-d ' + [Value]&#xA;else [Value]&#xA;endif" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1278" y="90" width="205.007" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>RUN command with arguements</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+            <Position x="1338" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputConfiguration>
+                <Configuration />
+              </OutputConfiguration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml</File>
+                  <FormatSpecificOptions>
+                    <ParseRoot>False</ParseRoot>
+                    <OuterXML>False</OuterXML>
+                    <IgnoreErrors>False</IgnoreErrors>
+                    <XmlElement />
+                    <ChildValues>True</ChildValues>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <ProgramName>C:\Users\odembowski\Desktop\CURL7\src\curl.exe</ProgramName>
+              <Arguments>-X GET-H "Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28" "https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG" -o "DELETEME.xml"</Arguments>
+              <WorkingDir>C:\Users\odembowski\Desktop\CURL7\src</WorkingDir>
+              <RunMinimized value="False" />
+              <RunSilent value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Run curl.exe</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="PlayerSeason" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="CustomD365FantasyPoints" size="6" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ScoringDetails" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PlayerID" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SeasonType" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Season" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Team" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Number" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Name" size="18" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Position" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PositionCategory" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Activated" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Played" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Started" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingAttempts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingCompletions" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingCompletionPercentage" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYardsPerCompletion" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingInterceptions" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingRating" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingLong" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingSacks" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingSackYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingAttempts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingLong" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingTargets" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Receptions" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYardsPerReception" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingLong" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Fumbles" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesLost" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnYardsPerAttempt" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnLong" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnYardsPerAttempt" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnLong" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SoloTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AssistedTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TacklesForLoss" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Sacks" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SackYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="QuarterbackHits" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassesDefended" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumbleReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumbleReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Interceptions" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="InterceptionReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="InterceptionReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKicks" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsSoloTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsAssistedTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscSoloTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscAssistedTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Punts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntAverage" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsAttempted" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsLongestMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionPasses" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionRuns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionReceptions" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPoints" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsPPR" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceptionPercentage" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYardsPerTarget" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Tackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Touchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPosition" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalPercentage" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PlayerSeasonID" size="8" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesOwnRecoveries" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesOutOfBounds" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnFairCatches" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnFairCatches" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntTouchbacks" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntInside20" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntNetAverage" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsAttempted" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKickReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Safeties" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntLong" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKickReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntNetYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsFumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsFumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscFumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscFumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ShortName" size="12" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SafetiesAllowed" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Temperature" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Humidity" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="WindSpeed" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveSnapsPlayed" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveSnapsPlayed" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsSnapsPlayed" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveTeamSnaps" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveTeamSnaps" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsTeamSnaps" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValue" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValue_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValuePPR" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValuePPR_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionReturns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsFanDuel" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade0to19" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade20to29" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade30to39" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade40to49" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade50Plus" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsDraftKings" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsYahoo" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1350" y="150" width="124.027" height="19" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>text input unions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1410" y="229" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="URL" />
+                <Field name="Header" />
+                <Field name="typ" />
+                <Field name="Outfile name" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>"https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG"</c>
+                  <c>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</c>
+                  <c>GET</c>
+                  <c>DELETEME.xml</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1482" y="229.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Request" type="V_WString" size="99999" expression="'-X ' + [typ]" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Request='-X ' + [typ]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+                <Field name="Request" size="99999" source="Formula: '-X ' + [typ]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1422" y="313" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="URL" />
+                <Field name="Header" />
+                <Field name="typ" />
+                <Field name="Outfile name" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>"https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG"</c>
+                  <c>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</c>
+                  <c>GET</c>
+                  <c>DELETEME.xml</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1434" y="409.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="URL" />
+                <Field name="Header" />
+                <Field name="typ" />
+                <Field name="Outfile name" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>"https://api.fantasydata.net/nfl/v2/xml/PlayerSeasonStats/2015REG"</c>
+                  <c>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</c>
+                  <c>GET</c>
+                  <c>DELETEME.xml</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1494" y="313.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Request" type="V_WString" size="99999" expression="'-H ' + [Header]" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Request='-H ' + [Header]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+                <Field name="Request" size="99999" source="Formula: '-H ' + [Header]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1578" y="414.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Request" type="V_WString" size="99999" expression="'url='+ [URL]" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Request='url='+ [URL]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+                <Field name="Request" size="99999" source="Formula: 'url='+ [URL]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1674" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="URL" size="66" source="TextInput:" type="String" />
+                <Field name="Header" size="61" source="TextInput:" type="String" />
+                <Field name="typ" size="3" source="TextInput:" type="String" />
+                <Field name="Outfile name" size="12" source="TextInput:" type="String" />
+                <Field name="Request" size="99999" source="Formula: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1770" y="306.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="URL" selected="False" />
+                <SelectField field="Header" selected="False" />
+                <SelectField field="typ" selected="False" />
+                <SelectField field="Outfile name" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Request" size="99999" source="Formula: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+            <Position x="1866" y="306.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputConfiguration>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="0">C:\Users\odembowski\Desktop\CURL7\src\config.txt</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <LineEndStyle>CRLF</LineEndStyle>
+                    <Delimeter>\0</Delimeter>
+                    <ForceQuotes>Never</ForceQuotes>
+                    <HeaderRow>False</HeaderRow>
+                    <CodePage>28591</CodePage>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+              </OutputConfiguration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml</File>
+                  <FormatSpecificOptions>
+                    <ParseRoot>False</ParseRoot>
+                    <OuterXML>False</OuterXML>
+                    <IgnoreErrors>False</IgnoreErrors>
+                    <XmlElement />
+                    <ChildValues>True</ChildValues>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <ProgramName>C:\Users\odembowski\Desktop\CURL7\src\curl.exe</ProgramName>
+              <Arguments>-K config.txt -o "DELETEME.xml"</Arguments>
+              <WorkingDir>C:\Users\odembowski\Desktop\CURL7\src</WorkingDir>
+              <RunMinimized value="False" />
+              <RunSilent value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Run curl.exe</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="PlayerSeason" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="CustomD365FantasyPoints" size="6" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ScoringDetails" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PlayerID" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SeasonType" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Season" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Team" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Number" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Name" size="27" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Position" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PositionCategory" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Activated" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Played" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Started" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingAttempts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingCompletions" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingCompletionPercentage" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingYardsPerCompletion" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingInterceptions" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingRating" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingLong" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingSacks" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassingSackYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingAttempts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="RushingLong" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingTargets" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Receptions" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYardsPerReception" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingLong" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Fumbles" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesLost" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnLong" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnYardsPerAttempt" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnLong" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SoloTackles" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AssistedTackles" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TacklesForLoss" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Sacks" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SackYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="QuarterbackHits" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PassesDefended" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumbleReturnYards" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumbleReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Interceptions" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="InterceptionReturnYards" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="InterceptionReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKicks" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsSoloTackles" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsAssistedTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscSoloTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscAssistedTackles" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Punts" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntAverage" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsAttempted" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsLongestMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsMade" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionPasses" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionRuns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionReceptions" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPoints" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsPPR" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceptionPercentage" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ReceivingYardsPerTarget" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Tackles" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveTouchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Touchdowns" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPosition" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalPercentage" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PlayerSeasonID" size="8" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesOwnRecoveries" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FumblesOutOfBounds" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="KickReturnFairCatches" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntReturnFairCatches" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntTouchbacks" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntInside20" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntNetAverage" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsAttempted" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKickReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalReturnTouchdowns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Safeties" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ExtraPointsHadBlocked" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntLong" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="BlockedKickReturnYards" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalReturnYards" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="PuntNetYards" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsFumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsFumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscFumblesForced" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="MiscFumblesRecovered" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="ShortName" size="19" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SafetiesAllowed" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Temperature" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Humidity" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="WindSpeed" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveSnapsPlayed" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveSnapsPlayed" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsSnapsPlayed" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveTeamSnaps" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveTeamSnaps" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsTeamSnaps" size="3" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValue" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValue_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValuePPR" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="AuctionValuePPR_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="TwoPointConversionReturns" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsFanDuel" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade0to19" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade20to29" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade30to39" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade40to49" size="2" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FieldGoalsMade50Plus" size="1" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsDraftKings" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="FantasyPointsYahoo" size="5" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Temperature_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="Humidity_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="WindSpeed_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveSnapsPlayed_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveSnapsPlayed_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsSnapsPlayed_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="OffensiveTeamSnaps_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="DefensiveTeamSnaps_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+                <Field name="SpecialTeamsTeamSnaps_i:nil" size="4" source="File: C:\Users\odembowski\Desktop\CURL7\src\DELETEME.xml" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1962" y="306.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_33520_b45d4ef03c6249cc93ea9f30fe1fef22_\Engine_14984_a0e22f7fa12a411f8b5bff6f028ddc1f_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Question" />
+      <Destination ToolID="39" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="31" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="39" Connection="Action" />
+      <Destination ToolID="36" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="43" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Question" />
+      <Destination ToolID="44" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="43" Connection="Action" />
+      <Destination ToolID="41" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="44" Connection="Action" />
+      <Destination ToolID="38" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="45" Connection="Question" />
+      <Destination ToolID="46" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="46" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="48" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="47" Connection="Question" />
+      <Destination ToolID="48" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (21)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (29)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (30)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (40)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (42)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (45)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (47)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DownloadToolV2Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="31" />
+              <Expression>IF [#1]='GET' then 'False' else 'True' endif</Expression>
+              <Destination>26/SelectFields/SelectField[@field='Payload']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="39" />
+              <Expression>IF [#1]='GET' then 'False' else 'True' endif</Expression>
+              <Destination>36/SelectFields/SelectField[@field='Payload']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="43" />
+              <Expression>If [#1]='True' then 'False' else 'True' endif</Expression>
+              <Destination>41/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="44" />
+              <Expression>If [#1]='True' then 'False' else 'True' endif</Expression>
+              <Destination>38/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="46" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>33/Data/r/c[1]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="48" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>"Ocp-Apim-Subscription-Key: 7f797abfc83c49aba7458746266abd28"</ReplaceText>
+              <Destination>33/Data/r/c[2]</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (7)</Name>
+          <ToolId value="7" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (29)</Description>
+              <Name>Macro Output (29)</Name>
+              <ToolId value="29" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Specify HTTP action</Description>
+              <Name>Drop Down (30)</Name>
+              <ToolId value="30" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[GET
+POST
+]]></Manual_Values>
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Input Parameters From Field</Description>
+              <Name>Radio Button (40)</Name>
+              <ToolId value="40" />
+              <Questions>
+                <Question>
+                  <Type>MacroInput</Type>
+                  <Description>Macro Input (21)</Description>
+                  <Name>Macro Input (21)</Name>
+                  <ToolId value="21" />
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Input Parameters Manually</Description>
+              <Name>Radio Button (42)</Name>
+              <ToolId value="42" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Enter URL</Description>
+                  <Name>Text Box (45)</Name>
+                  <ToolId value="45" />
+                  <Default />
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Enter Headers</Description>
+                  <Name>Text Box (47)</Name>
+                  <ToolId value="47" />
+                  <Default />
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="6" Selected="False" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="25" Selected="False" />
+        <Tool ToolId="29" Selected="True" />
+        <Tool ToolId="35" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
